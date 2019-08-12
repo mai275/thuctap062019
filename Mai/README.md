@@ -1,1 +1,28 @@
-# Thư mục ghi chép thực tập của Nguyễn Thị Mai 
+# phân quyền trong Linux  
+
+Một file trên Linux được sở hữu bởi 3 đối tượng : 
+  -	User owner - u : người sở hữu
+  -	Group owner - g: nhóm sở hữu
+  +	Others - o : các nhóm còn lại 
+
+Các quyền hạn:
++ Read - r : quyền đọc
++ Write - w : quyền viết
++ Execute - x : quyền thực thi
+
+Có 2 cách thay đổi quyền trên Linux:
++	Thay đổi quyền bằng chữ   
++	Thay đổi quyền bằng số
+
+**1.	Thay đổi quyền file bằng chữ**
+- Thay đổi bằng lệnh chmod
+- Chmod : lệnh dùng để cấp quyền hạn
+- Cú pháp : chmod <quyen> <file>
+**2. Thay đổi quyền file bằng số**
+- Tương tự như Thay đổi quyền file bằng chữ thì bằng số ta cũng thực hiện với lệnh chmod
+- Các quyền được kí hiệu bằng số như sau : 
+ 
+  + Read = 4 : quyền đọc
+  + Write = 2 : quyền viết
+  + Execute = 1: quyền thực thi
+
